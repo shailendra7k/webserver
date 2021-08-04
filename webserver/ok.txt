@@ -1,0 +1,8 @@
+-e 
+<VirtualHost *:80>
+</VirtualHost>
+    Options Indexes FollowSymLinks
+    AllowOverride None
+    Require all granted
+</Directory>
+
