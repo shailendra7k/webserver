@@ -6,7 +6,7 @@ then
 read -p "Enter domain name: " domain_name
 sudo apt update -y
 sudo apt install apache2 -y 
-mkdir -p /var/www/webscript.com/public_html
+mkdir -p /var/www/$domain_name/public_html
 echo "
 <VirtualHost *:80>
     ServerAdmin webmaster@$domain_name
